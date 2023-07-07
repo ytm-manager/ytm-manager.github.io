@@ -1,13 +1,11 @@
 # ICIQ-DMP.github.io
-Contains the documentation of the DMP projects, mainly eChempad
+Contains the documentation of the DMP projects, mainly eChempad.
 
-## Instructions
-
-## Dependencies
-
-### github 4 pages
+## Exhaustive list of the dependencies of the github 4 pages
 Here are the dependencies of github 4 pages https://pages.github.com/versions/
 Jekyll is 3.9.3
+
+## Instructions for manual installation 
 
 ### dependencies
 sudo apt-get install -y autoconf patch build-essential rustc libssl-dev libyaml-dev libreadline6-dev zlib1g-dev libgmp-dev libncurses5-dev libffi-dev libgdbm6 libgdbm-dev libdb-dev uuid-dev  # use libgdbm5 if the 6 is not available
