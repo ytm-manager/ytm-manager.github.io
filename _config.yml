@@ -29,7 +29,8 @@ github_username:  AleixMT
 # Build settings
 markdown: kramdown
 theme: minima
-# Added zendesk theme remote_theme: zendesk/jekyll-theme-zendesk-garden@v0.3.0
+# Added zendesk theme
+remote_theme: zendesk/jekyll-theme-zendesk-garden@v0.3.0
 plugins:
   - jekyll-feed
 
