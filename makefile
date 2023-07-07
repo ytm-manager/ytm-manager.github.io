@@ -10,7 +10,8 @@ run : _site
 # Run foreground verbose
 debug : _site
 	-pkill -f jekyll || True
-	bundle exec jekyll serve -o
+	export JEKYLL_LOG_LEVEL=debug
+	bundle exec jekyll serve -o --verbose
 
 .PHONY : clean
 clean :
