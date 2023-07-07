@@ -8,12 +8,23 @@ source "https://rubygems.org"
 #
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
+
 # Silenced as recommended and substituted by github 4 pages ruby gem
 gem "github-pages", "~> 227", group: :jekyll_plugins
 #gem "jekyll", "~> 3.8.6"
 
 # Added webrick  https://github.com/jekyll/jekyll/issues/8523
 gem "webrick"
+
+# Added with the just-the-docs template
+# gem "jekyll", "~> 4.3.2" # installed by `gem jekyll`
+# gem "webrick"        # required when using Ruby >= 3 and Jekyll <= 4.2.2
+
+# Added with the just-the-docs template
+gem "just-the-docs", "0.5.3" # pinned to the current release
+# gem "just-the-docs"        # always download the latest release
+
+
 
 
 # This is the default theme for new Jekyll sites. You may change this to anything you like.

@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Data Management Documentation
+title: ICIQ DMP docs
 email: dmp@iciq.es
 description: > # this means to ignore newlines until "baseurl:"
   Contains the data, tutorials and documentations that are used
@@ -28,9 +28,12 @@ github_username:  AleixMT
 
 # Build settings
 markdown: kramdown
-theme: minima
-# Added zendesk theme
-remote_theme: zendesk/jekyll-theme-zendesk-garden@v0.3.0
+theme: just-the-docs
+
+
+aux_links:
+  Template Repository: https://github.com/just-the-docs/just-the-docs-template
+
 plugins:
   - jekyll-feed
 
