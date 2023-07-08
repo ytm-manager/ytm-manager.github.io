@@ -1,10 +1,9 @@
 # ICIQ-DMP.github.io
 Contains the documentation of the DMP projects, mainly eChempad.
 
-
 ## Exhaustive list of the dependencies of the github 4 pages
-Here are the dependencies of github 4 pages https://pages.github.com/versions/
-Jekyll is 3.9.3
+Here are [the dependencies of github 4 pages](https://pages.github.com/versions/). Specifically, Jekyll version is 3.9.3
+
 
 ## Usage
 ### Instructions for environment installation (apply once per machine)
@@ -61,4 +60,6 @@ bundle exec jekyll serve
 sudo docker build -t iciq-dmp-docs .
 sudo docker-compose up -d
 ```
+
+
 

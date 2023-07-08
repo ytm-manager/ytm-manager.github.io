@@ -21,16 +21,18 @@ description: > # this means to ignore newlines until "baseurl:"
   Chemical Research of Catalonia. Mainly, it contains the documentations of the
   eChempad tool.
 
+# Apparently, the deployment to github 4 pages sets the fields baseurl and url for us
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "" # the base hostname & protocol for your site, e.g. http://example.com;
+
 twitter_username: ICIQ
 github_username:  AleixMT
 
 # Build settings
 markdown: kramdown
-theme: just-the-docs
+theme: just-the-docs  # Plugin that we use
 
-
+# Links in the top bar ?
 aux_links:
   Template Repository: https://github.com/just-the-docs/just-the-docs-template
 
@@ -38,8 +40,8 @@ plugins:
   - jekyll-feed
 
 # Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
+# The following items will not be processed, which means that they are not loaded in the server. Use it to exclude files
+# that do not have to be loaded, usually files that are not part of the source code
 exclude:
   - Gemfile
   - Gemfile.lock
@@ -52,3 +54,8 @@ exclude:
   - README.md
   - LICENSE
 
+# Set a path/url to a logo that will be displayed instead of the title
+logo: "/assets/images/logoICIQ.png"
+
+# Set a path/url to a favicon that will be displayed by the browser
+favicon_ico: "/assets/images/favicon.ico"
