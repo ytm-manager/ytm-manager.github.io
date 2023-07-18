@@ -16,6 +16,7 @@ sudo apt-get install -y autoconf patch build-essential rustc libssl-dev libyaml-
 ```shell
 git clone https://github.com/rbenv/rbenv.git ~/.rbenv
 echo 'eval "$(~/.rbenv/bin/rbenv init - bash)"' >> ~/.bashrc
+source ~/.bashrc # reload bashrc for next steps or start ne bash session with bash
 ```
 
 #### install `ruby` build as a `rbenv` plugin
