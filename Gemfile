@@ -10,22 +10,12 @@ source "https://rubygems.org"
 # Happy Jekylling!
 
 # Silenced as recommended and substituted by github 4 pages ruby gem
-gem "github-pages", "~> 227", group: :jekyll_plugins
-#gem "jekyll", "~> 3.8.6"
-
-# Add Jekyll layout as explained in here https://github.com/just-the-docs/just-the-docs-template/blob/main/README.md
-gem "jekyll-default-layout"
-
-# Added webrick  https://github.com/jekyll/jekyll/issues/8523
+gem "github-pages"  #, "~> 227", group: :jekyll_plugins
+gem "jekyll"
 gem "webrick"
 
 # Added with the just-the-docs template
-# gem "jekyll", "~> 4.3.2" # installed by `gem jekyll`
-# gem "webrick"        # required when using Ruby >= 3 and Jekyll <= 4.2.2
-
-# Added with the just-the-docs template
-gem "just-the-docs", "0.5.3" # pinned to the current release
-# gem "just-the-docs"        # always download the latest release
+gem "just-the-docs"        # always download the latest release
 
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
 gem "minima", "~> 2.0"

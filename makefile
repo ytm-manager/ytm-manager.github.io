@@ -1,13 +1,14 @@
 RC = bundle
 
 run : _site
-	@-bundle exec jekyll serve -o --detach > /dev/null 2>&1
+	@-bundle exec jekyll serve -o --detach  # > /dev/null 2>&1
 
 _site : cleanRuntime
-	bundle install
+	@bundle install
 
 cleanRuntime :
-    -pkill -f jekyll || :
+	@echo cleaning
+    -pkill -f bundle || :
 
 # Run foreground verbose
 debug : _site
