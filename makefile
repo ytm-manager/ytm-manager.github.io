@@ -1,14 +1,14 @@
 RC = bundle
 
 run : _site
-	@-bundle exec jekyll serve -o --detach  # > /dev/null 2>&1
+	@-bundle exec jekyll serve -o --detach 2>&1
 
 _site : cleanRuntime
 	@bundle install
 
 cleanRuntime :
-	@echo cleaning
-    -pkill -f bundle || :
+	@echo Killing execution of process in port 4000
+	-kill -9 $(shell lsof -t -i:4000)
 
 # Run foreground verbose
 debug : _site
