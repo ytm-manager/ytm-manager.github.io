@@ -1,15 +1,16 @@
 RC = bundle
 
-_site :
+run : _site
+	@-bundle exec jekyll serve -o --detach > /dev/null 2>&1
+
+_site : cleanRuntime
 	bundle install
 
-run : _site
-	-pkill -f jekyll || True
-	@-bundle exec jekyll serve -o --detach > /dev/null 2>&1
+cleanRuntime :
+    -pkill -f jekyll || :
 
 # Run foreground verbose
 debug : _site
-	-pkill -f jekyll || True
 	export JEKYLL_LOG_LEVEL=debug
 	bundle exec jekyll serve -o --verbose
 
