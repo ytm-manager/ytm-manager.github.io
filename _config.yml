@@ -20,6 +20,7 @@ description: > # this means to ignore newlines until "baseurl:"
   or were generated during the digitalization process of ICIQ, the Institute of
   Chemical Research of Catalonia. Mainly, it contains the documentations of the
   eChempad tool.
+author: ICIQ data steward
 
 # Apparently, the deployment to github 4 pages sets the fields baseurl and url for us
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -124,3 +125,6 @@ gh_edit_repository: "https://github.com/ICIQ-DMP/ICIQ-DMP.github.io" # the githu
 gh_edit_branch: "master" # the branch that your docs is served from
 # gh_edit_source: docs # the source that your files originate from
 gh_edit_view_mode: "tree" # "tree" or "edit" if you want the user to jump into the editor immediately
+
+include:
+  - _posts
