@@ -1,8 +1,7 @@
 ---
-layout: post
-title:  "Developer Guide"
+layout: default
+title: Developer Guide
 permalink: /eChempad/Developer-Guide
-date:   2023-07-07 13:03:42 +0200
 categories: developer eChempad
 tags: developer eChempad services
 nav_order: 2

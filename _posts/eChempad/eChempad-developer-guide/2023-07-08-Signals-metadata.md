@@ -1,12 +1,11 @@
 ---
-layout: post
-title:  "Signals metadata"
+layout: default
+title:  Signals metadata
 permalink: /eChempad/developer-guide/Signals-metadata/
-date:   2023-07-07 13:03:42 +0200
 categories: developer information signals
 tags: developer guide
 nav_order: 4
-parent: "Developer Guide"
+parent: Developer Guide
 ---
 
 # Metadata in Signals

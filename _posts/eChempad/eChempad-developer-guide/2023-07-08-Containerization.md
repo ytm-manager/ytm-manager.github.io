@@ -1,12 +1,11 @@
 ---
-layout: post
-title:  "Containerization"
+layout: default
+title:  Containerization
 permalink: /eChempad/developer-guide/Containerization/
-date:   2023-07-07 13:03:42 +0200
 categories: developer guide
 tags: developer guide
 nav_order: 2
-parent: "Developer Guide"
+parent: Developer Guide
 ---
 
 # Containerization

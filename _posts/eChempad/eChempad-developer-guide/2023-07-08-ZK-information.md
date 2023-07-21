@@ -1,12 +1,11 @@
 ---
-layout: post
-title:  "ZK information"
+layout: default
+title:  ZK information"
 permalink: /eChempad/developer-guide/ZK-information/
-date:   2023-07-07 13:03:42 +0200
 categories: developer guide
 tags: developer information guide
 nav_order: 5
-parent: "Developer Guide"
+parent: Developer Guide"
 ---
 
 ### Run some code before ZK loader instantiates any component
