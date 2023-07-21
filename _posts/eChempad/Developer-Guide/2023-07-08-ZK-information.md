@@ -1,11 +1,8 @@
 ---
 layout: default
-title:  ZK information"
-permalink: /eChempad/developer-guide/ZK-information/
-categories: developer guide
-tags: developer information guide
-nav_order: 5
-parent: Developer Guide"
+title:  ZK information
+parent: Developer Guide
+grand_parent: eChempad
 ---
 
 ### Run some code before ZK loader instantiates any component

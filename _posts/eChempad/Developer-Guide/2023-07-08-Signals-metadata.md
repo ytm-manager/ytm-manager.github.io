@@ -1,11 +1,8 @@
 ---
 layout: default
 title:  Signals metadata
-permalink: /eChempad/developer-guide/Signals-metadata/
-categories: developer information signals
-tags: developer guide
-nav_order: 4
 parent: Developer Guide
+grand_parent: eChempad
 ---
 
 # Metadata in Signals

@@ -1,11 +1,8 @@
 ---
 layout: default
-title:  Containerization
-permalink: /eChempad/developer-guide/Dataverse-information/
-categories: developer guide
-tags: developer guide
-nav_order: 3
+title:  Dataverse information
 parent: Developer Guide
+grand_parent: eChempad
 ---
 
 Link to a dataset is like 

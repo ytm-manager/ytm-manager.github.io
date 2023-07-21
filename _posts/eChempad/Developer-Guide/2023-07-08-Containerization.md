@@ -1,11 +1,9 @@
 ---
 layout: default
 title:  Containerization
-permalink: /eChempad/developer-guide/Containerization/
-categories: developer guide
-tags: developer guide
-nav_order: 2
+permalink: /eChempad/Developer-Guide/Containerization/
 parent: Developer Guide
+grand_parent: eChempad
 ---
 
 # Containerization
