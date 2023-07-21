@@ -61,6 +61,12 @@ exclude:
   - LICENSE
   - docker-compose.yml
   - Dockerfile
+  - .spelling_dictionary.dic
+
+# Literally the opposite of the previous block: forces inclusion to _site of specified files.
+# Take into account that files and directories that begin with ~ or _ among others, are excluded by default.
+include:
+  - _posts
 
 # Set a path/url to a logo that will be displayed instead of the title
 logo: "/assets/images/logoICIQ.png"
@@ -126,5 +132,4 @@ gh_edit_branch: "master" # the branch that your docs is served from
 # gh_edit_source: docs # the source that your files originate from
 gh_edit_view_mode: "tree" # "tree" or "edit" if you want the user to jump into the editor immediately
 
-include:
-  - _posts
+
