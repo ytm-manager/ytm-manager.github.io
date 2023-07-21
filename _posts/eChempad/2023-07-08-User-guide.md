@@ -4,7 +4,7 @@ title:  User Guide
 permalink: /eChempad/User-Guide
 categories: user eChempad
 tags: user eChempad services
-nav_order: 1
+nav_order: 8
 has_children: true
 parent: eChempad
 ---

@@ -1,11 +1,11 @@
 ---
 layout: default
 title: Developer Guide
-permalink: /eChempad/Developer-Guide
-categories: developer eChempad
-tags: developer eChempad services
-nav_order: 2
-has_children: true
+#permalink: /eChempad/Developer-Guide
+#categories: developer eChempad
+#tags: developer eChempad services
+#nav_order: 2
+#has_children: true
 parent: eChempad
 ---
 
