@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Developer Guide
+permalink: /eChempad/Developer-Guide/
 parent: eChempad
 has_children: true
 ---

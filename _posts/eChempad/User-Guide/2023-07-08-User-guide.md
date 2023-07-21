@@ -1,6 +1,7 @@
 ---
 layout: default
 title:  User Guide
+permalink: /eChempad/User-Guide/
 nav_order: 1
 has_children: true
 parent: eChempad
