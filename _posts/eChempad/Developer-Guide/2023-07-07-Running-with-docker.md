@@ -36,7 +36,16 @@ This will pull the official containers of the
 and run them in background, restarting them unless the containers are explicitly stopped.
 
 ### Test the platform
-Now, you can open a browser and navigate to the URL `localhost` to start using eChempad.
+Now, you can open a browser and navigate to the URL [`http://localhost`](http://localhost) to start using eChempad.
 
-### 
+### Adding tokens
+If you want to connect eChempad to Signals Notepad or Dataverse, you have to add the corresponding tokens to your user.
+You can do that in your eChempad profile.
+
+But you can also add your tokens in the same folder where you downloaded the `docker-compose.yml` in order to load the 
+tokens into the admin user profile.  
+
+You have to create the folders `src/main/resources/secrets` with the files `dataverseKey.txt` and `signalsKey.txt` with
+the corresponding tokens inside to make available the connection. 
+
 
