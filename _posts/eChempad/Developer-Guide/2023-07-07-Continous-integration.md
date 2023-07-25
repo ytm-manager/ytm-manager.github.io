@@ -25,3 +25,11 @@ will change them to a normal comment:
 ```bash
 IFS=$'\n'; for j in $(grep -r -I -l .); do sed '1 s|/\*\*|/\*|' -i "$j"; done
 ```
+
+### GitHub CI
+To use a self-hosted runner for your pipelines, you have to run the actionis-runner. Once configured, you can launch the runner in background with:
+
+```shell
+./run.sh > actions-runner.out 2> actions-runner.err &
+less actions-runner.out
+```
