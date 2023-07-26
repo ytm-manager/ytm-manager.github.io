@@ -70,3 +70,25 @@ needed, but right now it works (with no tests). The product of this command is a
 ```shell
 java -jar eChempad.war
 ```
+
+## Infraestructure
+
+We have many web services on the digitalization server. To reach them where is a firewall and reverse proxy, so you will not be 
+able to connect directly. To pass a connection through ssh for an arbitrary port you can use ssh **local forwarding**, because ssh connections
+are allowed to the server. Basically you stablish an ssh connection from the client to the server end and another connection
+that configures a forwarding tunnel. In the client end, ssh maps the 
+ssh tunnel to an arbitrary port. This arbitrary port has to be free in the client machine, of course. We will connect to
+localhost:client_arbitrary_port in the client machine to reach the hidden web service on the server. Then, the ssh connection 
+from the tunnel reaches the server,
+where the data coming from the ssh client, is forwarded to an arbitrary port. This port is expected to be the hidden web service
+that you cannot access directly.
+
+For example, we have an inaccessible web service serving on port 8081 on `server.iciq`. We have a ssh connection from the client
+to this server (allowed unrelated incoming traffic on port 22). We want to access server.iciq:8081 but the firewall does not allow
+traffic on port 8081.
+
+Solution: Create a tunnel that redirects connections in port 1088 on the client machine to the port 8081 in the remote machine:
+```shell
+ssh -L 1088:localhost:8081 amarine@server.iciq
+```
+After this, open the browser and connect to localhost:1088 to access (in reality) server.iciq:8081
