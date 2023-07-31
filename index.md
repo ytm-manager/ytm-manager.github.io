@@ -18,6 +18,6 @@ the data management process happening at ICIQ since 2020.
 It also contains the documentation and development notes of the [eChempad](https://github.com/AleixMT/eChempad) 
 platform.
 
-Contact [dmp@iciq.es](dmp@iciq.es) if you need more information.
+Contact [aleixaretra@gmail.com](aleixaretra@gmail.com) if you need more information.
 
 
