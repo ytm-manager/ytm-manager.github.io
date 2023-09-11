@@ -8,7 +8,8 @@ nav_order: 1
 
 
 local manual installation to run the software / local docker installation to run the software
-<!--
+
+<!---
 
 ### Prerequisites
 

@@ -6,7 +6,7 @@ parent: Developer Guide
 ---
 
 Dockerization explanation for this the application. 
-<!--
+<!---
 
 # Containerization
 We can run eChempad using containers. This is more comfortable than setting up the working environment in your own 

@@ -8,7 +8,7 @@ nav_order: 4
 
 
 local manual installation to develop and debug the software
-<!--
+<!---
 # Installing development environment for eChempad
 
 Steps to obtain a functional environment to develop and test eChempad in a Linux system.

@@ -8,7 +8,7 @@ nav_order: 5
 
 
 All the CI components that we have, build, integrate, deploy, etc 
-<!--
+<!---
 ## Continuous Integration
 The project has continuous integration features:
 #### Auto-generation of license
