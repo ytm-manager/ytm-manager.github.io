@@ -1,12 +1,14 @@
 ---
 layout: default
 title: Continous integration
-permalink: /eChempad/Developer-Guide/Continous-integration/
+permalink: /Developer-Guide/Continous-integration/
 parent: Developer Guide
-grand_parent: eChempad
-nav_order: 4
+nav_order: 5
 ---
 
+
+All the CI components that we have, build, integrate, deploy, etc 
+<!--
 ## Continuous Integration
 The project has continuous integration features:
 #### Auto-generation of license
@@ -33,3 +35,5 @@ To use a self-hosted runner for your pipelines, you have to run the actionis-run
 ./run.sh > actions-runner.out 2> actions-runner.err &
 less actions-runner.out
 ```
+
+-->

@@ -1,10 +1,12 @@
 ---
 layout: default
 title:  Containerization
-permalink: /eChempad/Developer-Guide/Containerization/
+permalink: /Developer-Guide/Containerization/
 parent: Developer Guide
-grand_parent: eChempad
 ---
+
+Dockerization explanation for this the application. 
+<!--
 
 # Containerization
 We can run eChempad using containers. This is more comfortable than setting up the working environment in your own 
@@ -92,3 +94,5 @@ Solution: Create a tunnel that redirects connections in port 1088 on the client 
 ssh -L 1088:localhost:8081 amarine@server.iciq
 ```
 After this, open the browser and connect to localhost:1088 to access (in reality) server.iciq:8081
+
+-->

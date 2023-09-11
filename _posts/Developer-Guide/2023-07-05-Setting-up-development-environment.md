@@ -1,12 +1,14 @@
 ---
 layout: default
 title: Setting up development environment
-permalink: /eChempad/Developer-Guide/Setting-up-development-environment/
+permalink: /Developer-Guide/Setting-up-development-environment/
 parent: Developer Guide
-grand_parent: eChempad
 nav_order: 4
 ---
 
+
+local manual installation to develop and debug the software
+<!--
 # Installing development environment for eChempad
 
 Steps to obtain a functional environment to develop and test eChempad in a Linux system.
@@ -163,3 +165,5 @@ to do in order to work with the project:
 - File -> project structure -> set language level to 1.8 (lambdas annotations..)
 - File -> Settings -> Plugins -> ZK framework
 - File -> Settings -> Plugins -> JPA buddy
+
+-->

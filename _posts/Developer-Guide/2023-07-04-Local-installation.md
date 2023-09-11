@@ -1,11 +1,14 @@
 ---
 layout: default
 title: Local installation
-permalink: /eChempad/Developer-Guide/Local-installation/
+permalink: /Developer-Guide/Local-installation/
 parent: Developer Guide
-grand_parent: eChempad
 nav_order: 1
 ---
+
+
+local manual installation to run the software / local docker installation to run the software
+<!--
 
 ### Prerequisites
 
@@ -77,3 +80,4 @@ createdb eChempad
 ``` 
 psql -d eChempad -h localhost -p 5432 -U amarine
 ```
+-->

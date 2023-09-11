@@ -1,5 +1,5 @@
 # ICIQ-DMP.github.io
-Contains the documentation of the DMP projects, mainly eChempad.
+Contains the documentation of the Youtube Music Manager application. 
 
 ## Exhaustive list of the dependencies of the github 4 pages
 Here are [the dependencies of github 4 pages](https://pages.github.com/versions/). Specifically, Jekyll version is 3.9.3
@@ -47,7 +47,7 @@ gem install jekyll
 ### Instructions for compiling and running project manually
 #### Compile
 ```shell
-cd ~/Desktop/ICIQ-DMP.github.io
+cd ~/Desktop/ytm-manager.github.io
 bundle install
 ```
 
@@ -58,7 +58,7 @@ bundle exec jekyll serve
 
 ### Instructions for compiling and running project using docker (no dependencies needed)
 ```shell
-sudo docker build -t iciq-dmp-docs .
+sudo docker build -t ytm-manager-docs .
 sudo docker-compose up -d
 ```
 

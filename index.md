@@ -5,19 +5,18 @@
 layout: home
 ---
 
-# ICIQ DMP documentation
+# YouTube Music Manager documentation
 
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
 ## Welcome
-You can find here notes and documentations of the Institut Català d'Investigació Química (ICIQ) data management. 
+You can find here notes and documentations of the YouTube Music Manager application and its components.
 
-This documentation explains how to use the services available for ICIQ researchers to digitalize their research and 
-the data management process happening at ICIQ since 2020.
+This documentation has two sections:
+* **User Guide**: Explains the different usage cases of this application for final users.
+* **Developer Guide**: Contains notes related to the development of the different components of the application that 
+  explain how to test and change them.
 
-It also contains the documentation and development notes of the [eChempad](https://github.com/AleixMT/eChempad) 
-platform.
-
-Contact [aleixaretra@gmail.com](aleixaretra@gmail.com) if you need more information.
+Contact [batangret@gmail.com](batangret@gmail.com) if you need more information.
 
 
