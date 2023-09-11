@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Web Interface
-permalink: /Developer-Guide/Local-installation/
-parent: Developer Guide
+permalink: /User-Guide/Web-Interface/
+parent: User Guide
 nav_order: 1
 ---
 
