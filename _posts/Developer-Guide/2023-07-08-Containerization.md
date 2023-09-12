@@ -5,7 +5,16 @@ permalink: /Developer-Guide/Containerization/
 parent: Developer Guide
 ---
 
-Dockerization explanation for this the application. 
+To manually build, upload and start the image of the backend you can use these commands:
+```shell
+git clone github.com/ytm-manager/ytm-manager-backend
+cd ytm-manager-backend
+sudo docker build -t aleixmt/ytm-offline:latest . 
+sudo docker push aleixmt/ytm-offline:latest 
+sudo docker-compose down 
+sudo docker-compose up -d
+```
+
 <!---
 
 # Containerization
