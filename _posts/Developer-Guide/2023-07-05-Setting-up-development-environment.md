@@ -7,7 +7,13 @@ nav_order: 4
 ---
 
 
-local manual installation to develop and debug the software
+local manual installation to develop and debug the software.
+
+Install ffmpeg and ffprobe
+```shell
+sudo apt install -y ffmpeg ffprobe
+```
+
 <!---
 # Installing development environment for eChempad
 
