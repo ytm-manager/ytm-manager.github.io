@@ -23,6 +23,13 @@ Create an user for ytm user, ytm_backend database. Used for theveloping postgres
 ```shell
 createuser -d -h localhost -p 5432 -U amarine -W ytm
 ```
+
+Create db user
+
+```sql
+INSERT INTO user_model(email, password)
+	VALUES ('ytm@ytm.com', 'changeit')
+```
 <!---
 # Installing development environment for eChempad
 
