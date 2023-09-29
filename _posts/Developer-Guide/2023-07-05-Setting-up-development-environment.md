@@ -14,6 +14,11 @@ Install ffmpeg and ffprobe
 sudo apt install -y ffmpeg ffprobe
 ```
 
+Also make the local DNS record postgres-db point to localhost in `/etc/hosts`
+```shell
+echo "127.0.0.1  postgres-db" >> /etc/hosts
+```
+
 <!---
 # Installing development environment for eChempad
 
