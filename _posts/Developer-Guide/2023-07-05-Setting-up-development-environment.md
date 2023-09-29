@@ -19,6 +19,10 @@ Also make the local DNS record postgres-db point to localhost in `/etc/hosts`
 echo "127.0.0.1  postgres-db" >> /etc/hosts
 ```
 
+Create an user for ytm user, ytm_backend database. Used for theveloping postgres locally installed
+```shell
+createuser -d -h localhost -p 5432 -U amarine -W ytm
+```
 <!---
 # Installing development environment for eChempad
 
