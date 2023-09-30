@@ -27,8 +27,8 @@ createuser -d -h localhost -p 5432 -U amarine -W ytm
 Create db user
 
 ```sql
-INSERT INTO user_model(email, password)
-	VALUES ('ytm@ytm.com', 'changeit')
+INSERT INTO user_model(email, password, created_on, is_admin)
+	VALUES ('ytm@ytm.com', 'changeit', TIMESTAMP '2004-10-19 10:23:54+02', true)
 ```
 <!---
 # Installing development environment for eChempad
